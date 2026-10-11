@@ -1,0 +1,51 @@
+# Build directories and CMake-generated files
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+build.ninja
+rules.ninja
+
+# Compiled binaries and libraries
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+
+# Visual Studio and VS Code
+.vs/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Node.js / React
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+coverage/
+
+# Environment files and credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# IDE and editor files
+.idea/
+*.iml
+.DS_Store
+*.swp
+*.swo
